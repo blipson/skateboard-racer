@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 bevy = { version = "0.15.1", features = ["dynamic_linking"] }
+bevy-inspector-egui = "0.28.1"
+avian3d = { version = "0.2.0", features = ["debug-plugin"] }
 
 [target.x86_64-unknown-linux-gnu]
 linker = "clang"
